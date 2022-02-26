@@ -7,8 +7,8 @@ import { permissions } from "./guards/index.js";
 import { createApolloServer } from "./apollo/index.js";
 import { databaseConnection } from "./db/index.js";
 
+export const startApolloServer = async () => {
   dotenv.config();
-  export const startApolloServer = async () => {
 
   const app = fastify();
 
