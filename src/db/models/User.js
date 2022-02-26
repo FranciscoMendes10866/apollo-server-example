@@ -13,4 +13,8 @@ export const UserModel = databaseConnection.define("User", {
     type: Sequelize.STRING,
     allowNull: false,
   },
+  password: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
 });
