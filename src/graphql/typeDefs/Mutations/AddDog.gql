@@ -1,0 +1,10 @@
+input addDogInput {
+    name: String!
+    age: Int!
+    breed: String!
+    isGoodBoy: Boolean
+}
+
+type Mutation {
+    addDog(input: addDogInput): Dog
+}
